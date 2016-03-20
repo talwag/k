@@ -1,0 +1,602 @@
+[
+  {
+    "name": "product0",
+    "sku": 1,
+    "price": 4,
+    "cat": "cat0"
+  },
+  {
+    "name": "product1",
+    "sku": 2,
+    "price": 5,
+    "cat": "cat1"
+  },
+  {
+    "name": "product2",
+    "sku": 3,
+    "price": 6,
+    "cat": "cat2"
+  },
+  {
+    "name": "product3",
+    "sku": 4,
+    "price": 7,
+    "cat": "cat3"
+  },
+  {
+    "name": "product4",
+    "sku": 5,
+    "price": 8,
+    "cat": "cat4"
+  },
+  {
+    "name": "product5",
+    "sku": 6,
+    "price": 9,
+    "cat": "cat5"
+  },
+  {
+    "name": "product6",
+    "sku": 7,
+    "price": 10,
+    "cat": "cat6"
+  },
+  {
+    "name": "product7",
+    "sku": 8,
+    "price": 11,
+    "cat": "cat7"
+  },
+  {
+    "name": "product8",
+    "sku": 9,
+    "price": 12,
+    "cat": "cat8"
+  },
+  {
+    "name": "product9",
+    "sku": 10,
+    "price": 13,
+    "cat": "cat9"
+  },
+  {
+    "name": "product10",
+    "sku": 11,
+    "price": 14,
+    "cat": "cat10"
+  },
+  {
+    "name": "product11",
+    "sku": 12,
+    "price": 15,
+    "cat": "cat11"
+  },
+  {
+    "name": "product12",
+    "sku": 13,
+    "price": 16,
+    "cat": "cat12"
+  },
+  {
+    "name": "product13",
+    "sku": 14,
+    "price": 17,
+    "cat": "cat13"
+  },
+  {
+    "name": "product14",
+    "sku": 15,
+    "price": 18,
+    "cat": "cat14"
+  },
+  {
+    "name": "product15",
+    "sku": 16,
+    "price": 19,
+    "cat": "cat15"
+  },
+  {
+    "name": "product16",
+    "sku": 17,
+    "price": 20,
+    "cat": "cat16"
+  },
+  {
+    "name": "product17",
+    "sku": 18,
+    "price": 21,
+    "cat": "cat17"
+  },
+  {
+    "name": "product18",
+    "sku": 19,
+    "price": 22,
+    "cat": "cat18"
+  },
+  {
+    "name": "product19",
+    "sku": 20,
+    "price": 23,
+    "cat": "cat19"
+  },
+  {
+    "name": "product20",
+    "sku": 21,
+    "price": 24,
+    "cat": "cat20"
+  },
+  {
+    "name": "product21",
+    "sku": 22,
+    "price": 25,
+    "cat": "cat21"
+  },
+  {
+    "name": "product22",
+    "sku": 23,
+    "price": 26,
+    "cat": "cat22"
+  },
+  {
+    "name": "product23",
+    "sku": 24,
+    "price": 27,
+    "cat": "cat23"
+  },
+  {
+    "name": "product24",
+    "sku": 25,
+    "price": 28,
+    "cat": "cat24"
+  },
+  {
+    "name": "product25",
+    "sku": 26,
+    "price": 29,
+    "cat": "cat25"
+  },
+  {
+    "name": "product26",
+    "sku": 27,
+    "price": 30,
+    "cat": "cat26"
+  },
+  {
+    "name": "product27",
+    "sku": 28,
+    "price": 31,
+    "cat": "cat27"
+  },
+  {
+    "name": "product28",
+    "sku": 29,
+    "price": 32,
+    "cat": "cat28"
+  },
+  {
+    "name": "product29",
+    "sku": 30,
+    "price": 33,
+    "cat": "cat29"
+  },
+  {
+    "name": "product30",
+    "sku": 31,
+    "price": 34,
+    "cat": "cat30"
+  },
+  {
+    "name": "product31",
+    "sku": 32,
+    "price": 35,
+    "cat": "cat31"
+  },
+  {
+    "name": "product32",
+    "sku": 33,
+    "price": 36,
+    "cat": "cat32"
+  },
+  {
+    "name": "product33",
+    "sku": 34,
+    "price": 37,
+    "cat": "cat33"
+  },
+  {
+    "name": "product34",
+    "sku": 35,
+    "price": 38,
+    "cat": "cat34"
+  },
+  {
+    "name": "product35",
+    "sku": 36,
+    "price": 39,
+    "cat": "cat35"
+  },
+  {
+    "name": "product36",
+    "sku": 37,
+    "price": 40,
+    "cat": "cat36"
+  },
+  {
+    "name": "product37",
+    "sku": 38,
+    "price": 41,
+    "cat": "cat37"
+  },
+  {
+    "name": "product38",
+    "sku": 39,
+    "price": 42,
+    "cat": "cat38"
+  },
+  {
+    "name": "product39",
+    "sku": 40,
+    "price": 43,
+    "cat": "cat39"
+  },
+  {
+    "name": "product40",
+    "sku": 41,
+    "price": 44,
+    "cat": "cat40"
+  },
+  {
+    "name": "product41",
+    "sku": 42,
+    "price": 45,
+    "cat": "cat41"
+  },
+  {
+    "name": "product42",
+    "sku": 43,
+    "price": 46,
+    "cat": "cat42"
+  },
+  {
+    "name": "product43",
+    "sku": 44,
+    "price": 47,
+    "cat": "cat43"
+  },
+  {
+    "name": "product44",
+    "sku": 45,
+    "price": 48,
+    "cat": "cat44"
+  },
+  {
+    "name": "product45",
+    "sku": 46,
+    "price": 49,
+    "cat": "cat45"
+  },
+  {
+    "name": "product46",
+    "sku": 47,
+    "price": 50,
+    "cat": "cat46"
+  },
+  {
+    "name": "product47",
+    "sku": 48,
+    "price": 51,
+    "cat": "cat47"
+  },
+  {
+    "name": "product48",
+    "sku": 49,
+    "price": 52,
+    "cat": "cat48"
+  },
+  {
+    "name": "product49",
+    "sku": 50,
+    "price": 53,
+    "cat": "cat49"
+  },
+  {
+    "name": "product50",
+    "sku": 51,
+    "price": 54,
+    "cat": "cat50"
+  },
+  {
+    "name": "product51",
+    "sku": 52,
+    "price": 55,
+    "cat": "cat51"
+  },
+  {
+    "name": "product52",
+    "sku": 53,
+    "price": 56,
+    "cat": "cat52"
+  },
+  {
+    "name": "product53",
+    "sku": 54,
+    "price": 57,
+    "cat": "cat53"
+  },
+  {
+    "name": "product54",
+    "sku": 55,
+    "price": 58,
+    "cat": "cat54"
+  },
+  {
+    "name": "product55",
+    "sku": 56,
+    "price": 59,
+    "cat": "cat55"
+  },
+  {
+    "name": "product56",
+    "sku": 57,
+    "price": 60,
+    "cat": "cat56"
+  },
+  {
+    "name": "product57",
+    "sku": 58,
+    "price": 61,
+    "cat": "cat57"
+  },
+  {
+    "name": "product58",
+    "sku": 59,
+    "price": 62,
+    "cat": "cat58"
+  },
+  {
+    "name": "product59",
+    "sku": 60,
+    "price": 63,
+    "cat": "cat59"
+  },
+  {
+    "name": "product60",
+    "sku": 61,
+    "price": 64,
+    "cat": "cat60"
+  },
+  {
+    "name": "product61",
+    "sku": 62,
+    "price": 65,
+    "cat": "cat61"
+  },
+  {
+    "name": "product62",
+    "sku": 63,
+    "price": 66,
+    "cat": "cat62"
+  },
+  {
+    "name": "product63",
+    "sku": 64,
+    "price": 67,
+    "cat": "cat63"
+  },
+  {
+    "name": "product64",
+    "sku": 65,
+    "price": 68,
+    "cat": "cat64"
+  },
+  {
+    "name": "product65",
+    "sku": 66,
+    "price": 69,
+    "cat": "cat65"
+  },
+  {
+    "name": "product66",
+    "sku": 67,
+    "price": 70,
+    "cat": "cat66"
+  },
+  {
+    "name": "product67",
+    "sku": 68,
+    "price": 71,
+    "cat": "cat67"
+  },
+  {
+    "name": "product68",
+    "sku": 69,
+    "price": 72,
+    "cat": "cat68"
+  },
+  {
+    "name": "product69",
+    "sku": 70,
+    "price": 73,
+    "cat": "cat69"
+  },
+  {
+    "name": "product70",
+    "sku": 71,
+    "price": 74,
+    "cat": "cat70"
+  },
+  {
+    "name": "product71",
+    "sku": 72,
+    "price": 75,
+    "cat": "cat71"
+  },
+  {
+    "name": "product72",
+    "sku": 73,
+    "price": 76,
+    "cat": "cat72"
+  },
+  {
+    "name": "product73",
+    "sku": 74,
+    "price": 77,
+    "cat": "cat73"
+  },
+  {
+    "name": "product74",
+    "sku": 75,
+    "price": 78,
+    "cat": "cat74"
+  },
+  {
+    "name": "product75",
+    "sku": 76,
+    "price": 79,
+    "cat": "cat75"
+  },
+  {
+    "name": "product76",
+    "sku": 77,
+    "price": 80,
+    "cat": "cat76"
+  },
+  {
+    "name": "product77",
+    "sku": 78,
+    "price": 81,
+    "cat": "cat77"
+  },
+  {
+    "name": "product78",
+    "sku": 79,
+    "price": 82,
+    "cat": "cat78"
+  },
+  {
+    "name": "product79",
+    "sku": 80,
+    "price": 83,
+    "cat": "cat79"
+  },
+  {
+    "name": "product80",
+    "sku": 81,
+    "price": 84,
+    "cat": "cat80"
+  },
+  {
+    "name": "product81",
+    "sku": 82,
+    "price": 85,
+    "cat": "cat81"
+  },
+  {
+    "name": "product82",
+    "sku": 83,
+    "price": 86,
+    "cat": "cat82"
+  },
+  {
+    "name": "product83",
+    "sku": 84,
+    "price": 87,
+    "cat": "cat83"
+  },
+  {
+    "name": "product84",
+    "sku": 85,
+    "price": 88,
+    "cat": "cat84"
+  },
+  {
+    "name": "product85",
+    "sku": 86,
+    "price": 89,
+    "cat": "cat85"
+  },
+  {
+    "name": "product86",
+    "sku": 87,
+    "price": 90,
+    "cat": "cat86"
+  },
+  {
+    "name": "product87",
+    "sku": 88,
+    "price": 91,
+    "cat": "cat87"
+  },
+  {
+    "name": "product88",
+    "sku": 89,
+    "price": 92,
+    "cat": "cat88"
+  },
+  {
+    "name": "product89",
+    "sku": 90,
+    "price": 93,
+    "cat": "cat89"
+  },
+  {
+    "name": "product90",
+    "sku": 91,
+    "price": 94,
+    "cat": "cat90"
+  },
+  {
+    "name": "product91",
+    "sku": 92,
+    "price": 95,
+    "cat": "cat91"
+  },
+  {
+    "name": "product92",
+    "sku": 93,
+    "price": 96,
+    "cat": "cat92"
+  },
+  {
+    "name": "product93",
+    "sku": 94,
+    "price": 97,
+    "cat": "cat93"
+  },
+  {
+    "name": "product94",
+    "sku": 95,
+    "price": 98,
+    "cat": "cat94"
+  },
+  {
+    "name": "product95",
+    "sku": 96,
+    "price": 99,
+    "cat": "cat95"
+  },
+  {
+    "name": "product96",
+    "sku": 97,
+    "price": 100,
+    "cat": "cat96"
+  },
+  {
+    "name": "product97",
+    "sku": 98,
+    "price": 101,
+    "cat": "cat97"
+  },
+  {
+    "name": "product98",
+    "sku": 99,
+    "price": 102,
+    "cat": "cat98"
+  },
+  {
+    "name": "product99",
+    "sku": 100,
+    "price": 103,
+    "cat": "cat99"
+  }
+]

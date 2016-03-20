@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="sweeperv7.css"/>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper </title>
+</head>
+<body background="pic.jpg">
+<div class = "chooseLevel">choose level:
+    <button class="beginner" onclick="level(9,10)">Beginner</button>
+    <button class="intermediate" onclick="level(16,40)">intermediate</button>
+    <button class="expert" onclick="level(25,99)">expert</button>
+</div>
+<table>
+    <tbody id='tableBody'>
+    </tbody>
+</table>
+<div class="timer">
+    Bombs : <span class="bombsToGo"></span>
+    Clock : <span class="secs">0</span>
+</div>
+<script src="sweeperv7.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<table class="mainTable">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>SKU</th>
+        <th>Price</th>
+        <th>Category <br/><input type="text" ng-model="filter.byCat" placeholder="Click here to filter"/></th>
+    </tr>
+    </thead>
+    <tbody ng-repeat="product in vm.products| filter:{cat: filter.byCat}">
+    <tr class="mainTableText">
+        <td><input ng-model="product.name" value="{{product.name}}"/></td>
+        <td><input ng-model="product.sku" value="{{product.sku}}"/></td>
+        <td><input type="number" ng-model="product.price" value="{{product.price}}"/></td>
+        <td><input ng-model="product.cat" value="{{product.cat}}"/></td>
+    </tr>
+    </tbody>
+</table>

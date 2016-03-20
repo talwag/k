@@ -1,0 +1,60 @@
+#output {
+  text-shadow: 1px 1px 1px #89ff5e;
+  font-weight: bold;
+  font-style: italic;
+  color: #3EACB0;
+  background-color: #FFA6E4;
+  border: 3px solid #63CBFF;
+  font-size: 17px;
+  font-family: verdana;
+  padding: 3px 23px 8px 23px; }
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-flow: row wrap; }
+
+.note {
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  margin: 0.5em; }
+
+#note-a {
+  background-color: #00ff00; }
+
+#note-b {
+  background-color: #000000; }
+
+#note-c {
+  background-color: #ff0000; }
+
+#note-d {
+  background-color: aqua; }
+
+#note-e {
+  background-color: blueviolet; }
+
+.playing {
+  opacity: 0.1; }
+
+button {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: -ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 5px;
+  border: 1px solid #d02718;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-shadow: 2px 3px 0px #810e05; }
+
+button:hover {
+  background: -ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); }
+
+/*# sourceMappingURL=simonscss.css.map */
