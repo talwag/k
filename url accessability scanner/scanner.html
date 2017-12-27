@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Url accessibility checker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- <script type="text/javascript" src="jquery.ajax-cross-origin.min.js"></script>   -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>        
+        <script type="text/javascript" src="d3pie.js"></script>
+        <link rel="stylesheet" href="scanner.css">
+    </head>
+
+    <body>
+        <h1>URL accessibility checker</h1>
+        <div class="container">
+            <div class="row">
+                <div class="md-9">
+                    <section class="subscribe">
+                        <div class="container">
+                            <!-- <div id="subscribe"> -->
+
+                            <!-- </div> -->
+                        </div>
+                    </section>
+                    <div class="md-9">
+                        <section class="subscribe">
+                            <div class="container">
+                                <div id="subscribe" class="pagination-centered text-center">
+                                    <p class="credits"></p>  
+                                    <a class="hide-element wave-link" href="http://wave.webaim.org/api/register"> Please click for getting a new key</a>                                   
+                                    <form class="hide-element replace-key" method="post" onsubmit="replaceKey(); return false;">
+                                        <input type="text" id="newKey" name="newKey" placeholder="Enter wave key" aria-label="Enter wave key"/>
+                                        <input id="submit_key" value="submit" type="submit" />
+                                    </form>   
+                                    <form method="post" onsubmit="scan(); return false;">
+                                        <input type="url" id="url" name="domain" placeholder="Enter url to scan" aria-label="Enter domain name to scan" required/>
+                                        <input id="submit_btn" value="submit" type="submit" />
+                                    </form>
+                                   
+                                </div>
+                            </div>
+                        </section>
+                        <section class="subscribe tables-section hide-element">
+                            <h2 class="url"></h2>
+                            <br>
+                            <table class="table" id="catTable">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Category</th>
+                                        <th>Count</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+
+                            </table>
+                            <div id="pieChart"></div>
+
+                            <hr class="border-grey">
+                            <div class=cat-container>                           
+                            <h2> Errors:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table errorTable ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class=cat-container>                           
+                            
+                            <h2> Alerts:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table alertTable ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <div class=cat-container>                           
+                            
+                            <h2> Structure:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table structureTable ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <div class=cat-container>                           
+                            
+                            <h2> Html5:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table html5Table ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <div class=cat-container>                           
+                            
+                            <h2> Contrasts:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table contrastTable ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <div class=cat-container>                           
+                            
+                            <h2> Features:</h2>
+                            <button class="btn-xs btn-info toggle-cat" type="button">+</button>
+                            <table class="table featureTable ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-xs-1"></col-xs-1>#</th>
+                                        <th class="col-xs-2">Title</th>
+                                        <th class="col-xs-3">Description</th>
+                                        <th class="col-xs-1">Total elements</th>
+                                        <th class="col-xs-5">Xpath</th>
+                                        <!--<th>Category</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        </section>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal"></div>
+        </div>
+        <script src="scanner.js"></script>
+    </body>
+
+</html>
