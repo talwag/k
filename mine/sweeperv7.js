@@ -110,8 +110,8 @@ function cellClicked(elCell, i, j) {
 
 function expandShown(elCell, i, j) {
     var elCurrentCell;
-    for (var ii = -2; ii <= 2; ii++) {
-        for (var jj = -2; jj <= 2; jj++) {
+    for (var ii = -1; ii <= 1; ii++) {
+        for (var jj = -1; jj <= 1; jj++) {
             var currI = i + ii;
             var currJ = j + jj;
             elCurrentCell = document.querySelector("#cell" + currI + "-" + currJ);
@@ -119,9 +119,11 @@ function expandShown(elCell, i, j) {
             if (ii === 0 && jj === 0) continue;
             if (currI < 0 || currI >= gBoard[0].length) continue;
             if (currJ < 0 || currJ >= gBoard[0].length) continue;
+            if (elCurrentCell.innerHTML != '') continue;
             if (gBoard[currI][currJ] !== MINE && (!(elCurrentCell.classList.contains('flag')))) {
                 elCurrentCell.classList.remove('hide');
                 elCurrentCell.innerHTML = gBoard[currI][currJ];
+                if(gBoard[currI][currJ] == 0) expandShown(elCurrentCell, currI, currJ);
             }
         }
     }
