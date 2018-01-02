@@ -1,4 +1,4 @@
-var waveKey = 'b5NF8BW1923';
+var waveKey = 'V49rpsk1925';
 $('#submit_btn').keydown(function (e) {
     if (e.which == 13) {
 
