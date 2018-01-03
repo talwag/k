@@ -259,6 +259,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+#portfolio{
+
+    padding-bottom: 40px
+}
 .portfolio-box {
     display: block;
     position: relative;
