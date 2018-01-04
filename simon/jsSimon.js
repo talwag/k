@@ -48,7 +48,7 @@ function render() {
     var elContainer = document.querySelector('#container');
     var strHTML = '';
     for (var k in gSounds) {
-        strHTML += '<div class= "note" id = note-'+k+' onclick="noteClicked(\'' + k + '\')"></div>';
+        strHTML += '<div class= "note" id = note-'+k+' onclick="noteClicked(\'' + k + '\')">'+k+'</div>';
         //id = note-'+k+'
     }
     elContainer.innerHTML = strHTML;

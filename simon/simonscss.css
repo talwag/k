@@ -1,46 +1,68 @@
+body{
+  height: 100%;
+  width: 90%;
+  background-color: #e6d9d9;
+}
 #output {
-  text-shadow: 1px 1px 1px #89ff5e;
+  text-shadow: 1px 1px 1px black;
   font-weight: bold;
   font-style: italic;
-  color: #3EACB0;
-  background-color: #FFA6E4;
-  border: 3px solid #63CBFF;
+  color: #e4e2e2;
+  background-color: #c62d1f;
+  border: 3px solid #ab5b5b;
   font-size: 17px;
   font-family: verdana;
-  padding: 3px 23px 8px 23px; }
+  padding: 3px 23px 8px 23px;
+ }
 
 #container {
   display: flex;
   justify-content: center;
   align-content: flex-start;
-  flex-flow: row wrap; }
+  flex-flow: row wrap; 
+}
 
 .note {
+  text-align: center;
+  font-size: 161px;
+  box-shadow: 8px 8px 8px 8px #3f120e;
   width: 200px;
   height: 200px;
   border-radius: 1000px;
-  margin: 0.5em; }
+  margin: 0.5em; 
+}
+
+.playing{
+  opacity: 0.8;
+  box-shadow: 3px 3px 3px 3px #3f120e;
+}
 
 #note-a {
-  background-color: #00ff00; }
+  background-color: #f2c80f; 
+}
 
 #note-b {
-  background-color: #000000; }
+  background-color: #fd625e;
+}
 
 #note-c {
-  background-color: #ff0000; }
+  background-color: #a66999; 
+}
 
 #note-d {
-  background-color: aqua; }
+  background-color: #3599b8; 
+}
 
 #note-e {
-  background-color: blueviolet; }
+  background-color: #374649;
+}
 
 .playing {
-  opacity: 0.1; }
+  /* opacity: 0.1;  */
+}
 
 button {
-  box-shadow: 3px 4px 0px 0px #8a2a21;
+  box-shadow: 4px 4px 0px 0px #8a2a21;
   background: -ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
   background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
   background-color: #c62d1f;
@@ -51,10 +73,16 @@ button {
   font-family: Arial;
   font-size: 17px;
   padding: 7px 25px;
-  text-shadow: 2px 3px 0px #810e05; }
+  text-shadow: 3px 3px 0px #810e05; 
+}
 
 button:hover {
   background: -ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
-  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); }
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); 
+}
 
-/*# sourceMappingURL=simonscss.css.map */
+button:active{
+  outline: none;
+  box-shadow: 2px 2px 0px 0px #8a2a21;
+  transform: translateY(4px);
+}
