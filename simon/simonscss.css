@@ -2,6 +2,7 @@ html{
   height: 90%;
 }
 body{
+  font-size: 3.7vw;
   height: 100%;
   width: 90%;
   background-color: #e6d9d9;
@@ -13,7 +14,6 @@ body{
   color: #e4e2e2;
   background-color: #c62d1f;
   border: 3px solid #ab5b5b;
-  font-size: 17px;
   font-family: verdana;
   padding: 3px 23px 8px 23px;
  }
@@ -63,11 +63,8 @@ body{
   background-color: #374649;
 }
 
-.playing {
-  /* opacity: 0.1;  */
-}
-
 button {
+  font-size: 3.7vw;
   box-shadow: 4px 4px 0px 0px #8a2a21;
   background: -ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
   background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
@@ -77,7 +74,6 @@ button {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
   padding: 7px 25px;
   text-shadow: 3px 3px 0px #810e05; 
 }
