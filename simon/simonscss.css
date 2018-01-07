@@ -1,3 +1,6 @@
+html{
+  height: 90%;
+}
 body{
   height: 100%;
   width: 90%;
@@ -16,20 +19,23 @@ body{
  }
 
 #container {
+  height: 100%;
   display: flex;
   justify-content: center;
-  align-content: flex-start;
   flex-flow: row wrap; 
 }
 
 .note {
+  line-height: 130%;
+  align-self: center;
   text-align: center;
-  font-size: 161px;
+  cursor: pointer;
+  font-size: 10vw;
   box-shadow: 8px 8px 8px 8px #3f120e;
-  width: 200px;
-  height: 200px;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 1000px;
-  margin: 0.5em; 
+  margin: 0.1em; 
 }
 
 .playing{

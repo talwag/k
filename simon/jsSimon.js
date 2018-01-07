@@ -33,7 +33,6 @@ function playSeq() {
         var intervalID = setInterval(function () {
             gSounds[gState.seq[intervalCounter]].play();
             addRemoveClass(gState.seq[intervalCounter]);
-            console.log(gState.seq[intervalCounter]);
             intervalCounter++;
             if (intervalCounter === gState.seq.length) {
                 userTurn();
@@ -70,7 +69,6 @@ function userTurn(){
 }
 function addRemoveClass(noteIndex){
     var elNote = document.querySelector('#note-'+noteIndex);
-    console.log(elNote);
     elNote.classList.add('playing');
     setTimeout(function(){elNote.classList.remove('playing');}, 1000);
 }
