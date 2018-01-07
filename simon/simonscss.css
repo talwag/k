@@ -1,5 +1,5 @@
 body{
-  font-size: 3.7vw;
+  font-size: 34px;
   height: 100%;
   width: 90%;
   background-color: #e6d9d9;
@@ -16,6 +16,7 @@ body{
  }
 
 #container {
+  height: 90%;
   display: flex;
   justify-content: center;
   align-content: flex-start;
@@ -58,7 +59,7 @@ body{
 }
 
 button {
-  font-size: 3.7vw;
+  font-size: 2.2vw;
   box-shadow: 4px 4px 0px 0px #8a2a21;
   background: -ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
   background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
@@ -81,4 +82,15 @@ button:active{
   outline: none;
   box-shadow: 2px 2px 0px 0px #8a2a21;
   transform: translateY(4px);
+}
+@media (max-width: 1024px)  {
+  body{
+    font-size: 72px;
+  }
+  #output{
+    display: block;
+  }
+  button{
+    font-size: 90px;
+  }
 }
