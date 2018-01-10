@@ -1,7 +1,6 @@
 body{
   font-size: 34px;
   height: 100%;
-  width: 90%;
   background-color: #e6d9d9;
 }
 #output {
@@ -30,7 +29,7 @@ body{
   width: 200px;
   height: 200px;
   border-radius: 1000px;
-  margin: 0.5em; 
+  margin: 0.5em 0.8em; 
 }
 
 .playing{
