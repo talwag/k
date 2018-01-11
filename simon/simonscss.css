@@ -3,6 +3,20 @@ body{
   height: 100%;
   background-color: #e6d9d9;
 }
+
+a{
+  font-size: 16px;
+  float: right;
+  box-shadow: 4px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 5px;
+  border: 1px solid #d02718;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  padding: 7px 25px;
+}
 #output {
   text-shadow: 1px 1px 1px black;
   font-weight: bold;
@@ -72,7 +86,7 @@ button {
   text-shadow: 3px 3px 0px #810e05; 
 }
 
-button:hover {
+a:hover, button:hover {
   background: -ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
   background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); 
 }

@@ -8,6 +8,10 @@ body {
     background-repeat: no-repeat;
 }
 
+a {
+    font-size: 20px;
+}
+
 table {
     font-size: 16px;
     margin: auto;
